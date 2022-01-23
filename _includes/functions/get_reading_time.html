@@ -24,10 +24,10 @@
 {% assign hours = total_mins | divided_by: 60 %}
 {% assign mins = total_mins | modulo: 60 %}
 
-{% assign return = "About" %}
+{% assign return = "Cerca de" %}
 
 {% if hours > 0 %}
-  {% assign unit = "hour" %}
+  {% assign unit = "horas" %}
   {% if hours > 1 %}
     {% assign unit = unit | append: "s" %}
   {% endif %}
